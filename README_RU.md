@@ -74,4 +74,4 @@ manim -pql main.py SolveEquation
 
 <h2>Лицензия</h2>
 
-**The MIT License**
+**MIT Лицензия**
