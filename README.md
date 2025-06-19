@@ -68,7 +68,7 @@ Run file `main.py`:
 
 Or assemble the video with the command you need, for example:
 ```ssh
-manim -pql main.py SolveEquation
+manim -pql main.py LaTexProcessor
 ```
 
 <h2>License</h2>
