@@ -1,7 +1,3 @@
-# 
-
-
-﻿<!--MathWorker-->
 <h1 align="center">Simple Manip Animation</h1>
 
 [![Русская версия](https://img.shields.io/badge/Русская%20версия-blue)](README_RU.md)
@@ -63,9 +59,16 @@ x = -\frac{b}{a}
 ax + b = 0 \\ x = -\frac{b}{a}
 
 ```
+**Run**
 
+Run file `main.py`:
 ```ssh
 ./main.py
+```
+
+Or assemble the video with the command you need, for example:
+```ssh
+manim -pql main.py SolveEquation
 ```
 
 <h2>License</h2>
