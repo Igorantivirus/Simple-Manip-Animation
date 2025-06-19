@@ -69,7 +69,7 @@ ax + b = 0 \\ x = -\frac{b}{a}
 
 Или выполните сборку видео с нужными вам параметрами командой, например:
 ```ssh
-manim -pql main.py SolveEquation
+manim -pql main.py LaTexProcessor
 ```
 
 <h2>Лицензия</h2>
