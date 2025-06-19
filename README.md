@@ -47,7 +47,7 @@ To improve the animation, the following features of the LaTex syntax used in the
 
 <h2>Examples</h2>
 
-1. **Example**: Solving a linear equation
+* **Example**: Solving a linear equation
 
 ``` txt
 \header{Line equation}
@@ -59,7 +59,7 @@ x = -\frac{b}{a}
 ax + b = 0 \\ x = -\frac{b}{a}
 
 ```
-**Run**
+* **Run**
 
 Run file `main.py`:
 ```ssh
