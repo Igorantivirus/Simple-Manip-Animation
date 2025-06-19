@@ -41,17 +41,13 @@ Python code based on the manim library, which allows you to create animations wi
 To improve the animation, the following features of the LaTex syntax used in the txt file have been created:
 |    Comman    |                                           Description                                                                                            |
 |--------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-|**Space**     |Separates animation objects. It cannot be used in the construction of `"\begin(name)...\end{name}"`.                                              |
-|**\header{}** | (Separate line) The title on the screen before the new title appears                                                                             |
 |**'#'**       | (Separate line) Comments                                                                                                                         |
 |**'\\\\'**    | Line break. The difference from Base LaTex: it should be surrounded by spaces only if the construction `"\begin(name)...\end{name}"` is not used.|
-|**Empty line**| Wraps the previous object in a frame until the next animation.                                                                                   |
-
-* **Space** - Separates animation objects. It cannot be used in the construction of `"\begin(name)...\end{name}"`.
-* **\header{}** - (Separate line) The title on the screen before the new title appears
-* **'#'** - (Separate line) Comments
-* **'\\\\'** - Line break. The difference from Base LaTex: it should be surrounded by spaces only if the construction `"\begin(name)...\end{name}"` is not used.
-* **Empty line** - Wraps the previous object in a frame until the next animation.
+|**Space**     | Separates animation objects. It cannot be used in the construction of `"\begin(name)...\end{name}"`.                                             |
+|**Empty line**| Empty lines are skipped.                                                                                                                         |
+|**\header{}** | (Separate line) The title on the screen before the new title appears                                                                             |
+|**\border**   | Creates an outline around the following code                                                                                                     |
+|**/next**     | Glues the current and next lines together                                                                                                        |
 
 <h2>Examples</h2>
 
