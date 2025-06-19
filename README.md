@@ -47,7 +47,7 @@ To improve the animation, the following features of the LaTex syntax used in the
 |**Empty line**| Empty lines are skipped.                                                                                                                         |
 |**\header{}** | (Separate line) The title on the screen before the new title appears                                                                             |
 |**\border**   | Creates an outline around the following code                                                                                                     |
-|**/next**     | Glues the current and next lines together                                                                                                        |
+|**\next**     | Glues the current and next lines together                                                                                                        |
 
 <h2>Examples</h2>
 
