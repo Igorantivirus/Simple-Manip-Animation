@@ -24,6 +24,8 @@ class LaTexProcessor(Scene):
 
     def processLine(self, line : str, prev: Tex)->Tex:
         processed, toBorder = processString(line)
+        if(len(processed) == 0):
+            return prev
         new_equation = Tex(*processed)
 
         if prev is None:
